@@ -1,0 +1,4 @@
+C:\Users\Rooga\OneDrive\Desktop\YAML Exercise Project\Debug\YAML Exercise Project.exe
+C:\Users\Rooga\OneDrive\Desktop\YAML Exercise Project\Debug\YAML Exercise Project.pdb
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\Debug\YAML Exercise Project.exe
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\Debug\YAML Exercise Project.pdb
