@@ -1,0 +1,25 @@
+﻿  Game.cpp
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Game.cpp(62,24): warning C4244: '-=': conversion from 'double' to 'sf::Int32', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Game.cpp(131,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Game.cpp(131,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Game.cpp(133,30): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+  LevelLoader.cpp
+  main.cpp
+  Tank.cpp
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Tank.cpp(17,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Tank.cpp(19,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Tank.cpp(54,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Tank.cpp(54,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Tank.cpp(56,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Tank.cpp(62,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Tank.cpp(62,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Tank.cpp(64,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Tank.cpp(166,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Tank.cpp(167,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Tank.cpp(189,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Tank.cpp(190,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Tank.cpp(239,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Tank.cpp(251,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\src\Tank.cpp(257,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+sfml-window-d.lib(sfml-window-d-2.dll) : fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'

@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bullet.h" />
     <ClInclude Include="Include\CollisionDetector.h" />
     <ClInclude Include="Include\Game.h" />
     <ClInclude Include="Include\LevelLoader.h" />
@@ -28,6 +29,7 @@
     <ClInclude Include="Include\Tank.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Bullet.cpp" />
     <ClCompile Include="src\CollisionDetector.cpp" />
     <ClCompile Include="src\Game.cpp" />
     <ClCompile Include="src\LevelLoader.cpp" />
@@ -138,10 +140,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Rooga\OneDrive\Desktop\SFML-2.5.1\include;C:\Users\Rooga\OneDrive\Desktop\Programming-mini-project-I\YAML Exercise Project\Include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Rooga\OneDrive\Desktop\SFML-2.5.1\lib;$(ProjectDir)\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-window-d.lib;sfml-network-d.lib;sfml-audio-d.lib;sfml-graphics-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

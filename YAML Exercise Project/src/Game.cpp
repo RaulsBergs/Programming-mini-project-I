@@ -102,6 +102,8 @@ void Game::processGameEvents(sf::Event& event)
 void Game::update(double dt)
 {
 	m_tankObj.update(dt);
+
+	m_bullet.update(dt, m_tankObj);
 }
 
 ////////////////////////////////////////////////////////////
@@ -116,7 +118,9 @@ void Game::render()
 		m_window.draw(m_wallSprites[i]);
 	}
 	m_tankObj.render(m_window);
-
+	
+	m_bullet.render(m_window);
+	
 	m_window.display();
 }
 

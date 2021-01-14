@@ -4,7 +4,6 @@
 #include <fstream>
 #include <iostream>
 #include "yaml-cpp\yaml.h"
-
 /// <summary>
 /// @brief A struct to represent Obstacle data in the level.
 /// 

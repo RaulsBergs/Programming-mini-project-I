@@ -3,6 +3,7 @@
 #include "ScreenSize.h"
 #include "LevelLoader.h"
 #include "Tank.h"
+#include "Bullet.h"
 
 /// <summary>
 /// @author RP
@@ -93,6 +94,8 @@ protected:
 	// Load the game level data.
 	LevelData m_level;
 
+	sf::Text playerScoreText;
+
 	/// <summary>
 	/// @brief Constructor that stores drawable state (texture, sprite) for the tank.
 	/// Stores references to the texture and container of wall sprites. 
@@ -101,6 +104,8 @@ protected:
 	/// <param name="t_texture">A reference to the sprite sheet texture</param>
 	///< param name="t_wallSprites">A reference to the container of wall sprites</param>  
 	Tank m_tankObj;
+
+	Bullet m_bullet;
 
 	sf::Sprite m_tankSprite;
 };

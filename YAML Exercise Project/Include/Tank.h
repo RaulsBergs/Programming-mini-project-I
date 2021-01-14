@@ -78,14 +78,14 @@ public:
 
 	// The tank speed.
 	double m_speed{ 2.0 };
-
+	sf::Sprite m_turret;
 	// The current rotation as applied to tank base.
 	double m_tankRotation{ 90.0 };
 private:
 	const int M_MAXHIGHSPEED = 100, M_MAXLOWSPEED = 0;
 	void initSprites(sf::Vector2f const& pos);
 	sf::Sprite m_tankBase;
-	sf::Sprite m_turret;
+
 	sf::Texture const& m_texture;
 	double m_turretRotation{m_tankRotation};
 	bool m_enableRotation{true};
